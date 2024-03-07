@@ -103,6 +103,15 @@ section {
   margin-bottom: 2rem;
 }
 
+.home-text .logo{
+  /* background-color: red; */
+  position: fixed;
+  right: 20%;
+  top: 49%;
+  padding: 0 1rem;
+  
+}
+
 .btn {
   display: inline-block;
   margin: 1rem;
@@ -289,6 +298,16 @@ position: relative;
 transition: all 0.2s ease-in-out;
 }
 
+.left ul{
+  /* background-color: red; */
+  font-size: 18px;
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 20%;
+  
+
+}
+
 .mid{
 /* background-color: black; */
 text-align: center;
@@ -336,11 +355,11 @@ width: 150px;
 }
 
 .right img{
-  margin-top: 50px;
+  margin-top: 40px;
   /* margin: 10px; */
   border-radius: 70%;
-  width: 25%;
-  height: 15%;
+  width: 33%;
+  height: 20%;
 }
 
 .left img{
@@ -366,16 +385,17 @@ width: 150px;
   z-index: 1;
   margin-left: 40%;
   border-radius: 50%;
-  width: 17%;
-  height: 100%;
+  margin-top: 1%;
+  width: 14%;
+  height: 85%;
   background-color: #f7f7f2;
 }
 
 .left-foot-circ img{
   z-index: 1000;
-  margin-top: 5px;
+  margin-top: 1px;
   margin-left:0;
-  width: 80px;
+  width: 70px;
   height: 65px;
 }
 
@@ -412,3 +432,10 @@ width: 150px;
   background-color: #f7f7f2;
 }
 
+.image1{
+  filter:drop-shadow(10px 7px 10px black);
+}
+
+.image2{
+  filter:drop-shadow(10px 7px 10px #ff0636);
+}
