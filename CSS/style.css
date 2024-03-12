@@ -134,8 +134,8 @@ section {
   transform: translateY(5px);
 }
 
-.social-icons {
-  position: fixed;
+.home .social-icons {
+  position: absolute;
   left: 0;
   top: 40%;
   padding: 0 8rem;
@@ -358,7 +358,7 @@ width: 150px;
   margin-top: 40px;
   /* margin: 10px; */
   border-radius: 70%;
-  width: 33%;
+  width: 31%;
   height: 20%;
 }
 
@@ -438,4 +438,21 @@ width: 150px;
 
 .image2{
   filter:drop-shadow(10px 7px 10px #ff0636);
+}
+
+
+.image1:hover{
+  transform: scale(1.3);
+}
+
+.image2:hover{
+  transform: scale(1.3);
+}
+
+.image-right:hover{
+  transform: rotate(15deg);
+}
+
+.image-left:hover{
+  transform: rotate(15deg);
 }
